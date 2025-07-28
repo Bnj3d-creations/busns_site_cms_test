@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BnJ 3D Creations – Design Services</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #fff;
+      color: #333;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      max-width: 1200px;
+      margin: 0 auto;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    }
+    header {
+      background-color: #5a2ca0;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-radius: 0 0 16px 16px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header .tagline {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+    nav {
+      background-color: #f1c40f;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 0 0 16px 16px;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 1rem;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+    }
+    .project {
+      margin-bottom: 2rem;
+    }
+    .project h2 {
+      color: #5a2ca0;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .project p {
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+      color: #444;
+      border-radius: 16px 16px 0 0;
+    }
+  </style>
+</head>
+<body>
+ <header>
+  <div style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
+    <img src="images/bnj-logo.png" alt="BnJ 3D Logo" style="height: 100px;" />
+    <div>
+      <h1>BnJ 3D Creations</h1>
+      <p class="tagline">Making Your Ideas a Reality — in 3D</p>
+    </div>
+  </div>
+</header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Design & Special Projects</h2>
+    <p>At BnJ 3D Creations, we specialize in transforming your concepts into 3D-printed reality. From practical tools to large-scale prototypes, we bring your vision to life with precision and care.</p>
+  </section>
+
+  <section id="portfolio">
+    <div class="project">
+      <h2>Gutter Wedge System</h2>
+      <p>Custom-designed and printed solution for a professional gutter installation company. Engineered to exact tolerances and weather-resistant.</p>
+    </div>
+    <div class="project">
+      <h2>Boeing 747 Model</h2>
+      <p>A detailed 36" scale model created for an interior designer's high-profile client. Crafted in sections, assembled with seamless joins, and painted to spec.</p>
+    </div>
+    <div class="project">
+      <h2>Window-Mounted Bird Feeders</h2>
+      <p>While not our main service, our line of durable PETG bird feeders remains a popular niche offering.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BnJ 3D Creations. All rights reserved.</p>
+  </footer>
+</body>
+</html>
